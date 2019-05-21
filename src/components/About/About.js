@@ -44,7 +44,7 @@ export default class About extends Component {
               </div>
             )}
           />
-          <Route />
+          <Route path="/about/history" component={History} />
           <Route />
         </Switch>
       </div>
